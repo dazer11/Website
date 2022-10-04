@@ -1,13 +1,11 @@
 body{
   width: 100%;
   min-height: 100vh;
-  background: linear-gradient(
-    to right,
-    rgb(59, 57, 58) 0%,
-    rgb(34, 33, 33) 73%,
-    rgba(68, 168, 208, 0.861) 27%,
-    rgb(37, 38, 38) 100%
-  );
+  
+  background: rgb(34, 33, 33) 73%;
+  margin-right: auto;
+  
+
   
   
   
@@ -34,24 +32,29 @@ h2 {
   h3 {
     color: white;
     font-family: Monospace;
-    margin-right: 800px;
+    margin-right: auto;
     font-size: 15px;
     padding-left: 350px;
+    padding-right: 700px;
     margin-top: 40px;
     line-height: 1.6;
+    min-width: 400px
   }
   hr {
     margin-left: 160px;
     margin-right: 700px;
     border-radius: 100px;
+    min-width: 650px;
     color: #44a8d0;
   }
   img {
-    margin-left: 900px;
-    margin-top: -365px;
-    -moz-box-shadow: 0px 6px 5px rgb(214, 38, 38);
+    margin-left: auto;
+    margin-top: -315px;
+    padding-left: 900px;
+    min-width: 100px;
+  -moz-box-shadow: 0px 6px 5px rgb(214, 38, 38);
   -webkit-box-shadow: 0px 6px 5px rgb(197, 49, 49);
-  box-shadow: 0px 30px 50px #44a8d061;
+  box-shadow: 70px 10px 70px #44a8d061;
   -moz-border-radius:190px;
   -webkit-border-radius:190px;
   border-radius:190px;
